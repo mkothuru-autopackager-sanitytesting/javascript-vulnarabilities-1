@@ -23,7 +23,7 @@ This will run an express server on port 8000.
   
 Alos this app requires a database that is right now setup to connect on 192.168.178.80:3306. Please refer to the overlaying group of repositorires [https://github.com/veracode/verademo-app-docker](https://github.com/veracode/verademo-app-docker) how you can run the web app, the database and this API in one go using Docker images.  
   
-A few little configurations if you wnat to adjust.  
+A few little configurations if you wnat to adjust.
 It's configured to run on port 8000, if you want to change please change the code on ``index.js`` accordingly.  
 ```  
 app.listen(8000, () => {
