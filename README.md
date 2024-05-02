@@ -17,7 +17,7 @@ SCA Findings
 ## How to build and run  
 Simply clone this repo and run   ss
 ``npm install``   
-This will install required node modules for this application.ss
+This will install required node modules for this application.
 ``node index.js``  
 This will run an express server on port 8000.  
   
